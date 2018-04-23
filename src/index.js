@@ -3,9 +3,10 @@ import React, { PureComponent } from 'react'
 import { View, Image } from 'react-native'
 import PropTypes from 'prop-types'
 // libs
-import Svg, { Rect, Path } from 'react-native-svg'
+import {Svg}  from 'expo'
 import genMatrix from './genMatrix'
 
+const { Rect, Path } = Svg
 /**
  * A simple component for displaying QR Code using svg
  */
